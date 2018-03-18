@@ -3,10 +3,12 @@ html {
   height: 100%;
   width: 100%;
 }
+
 body {
   width: 100%;
   height: 100%;
 }
+
 header, .about, .hobbies, .projects {
   min-height: 800px;
   margin-top: 60px;
@@ -60,12 +62,14 @@ a {
   color: #2C2C54;
   font-family: 'Alegreya', serif, cursive;
 }
+
 main p {
   font-family: 'Alegreya', serif,cursive;
   text-align: right;
   margin-right: 2%;
   color: #785964
 }
+
 .menu-selection {
   width: 90%;
   margin: auto;
@@ -103,9 +107,11 @@ div p {
   font-family: 'Alegreya', cursive;
   color: black;
 }
+
 .about img {
   border-radius: 85%;
 }
+
 header {
   background-image:url("../images/background.jpeg");
   background-attachment: fixed;
@@ -126,6 +132,7 @@ color: #785964;
 footer img {
   max-width: 30px;
 }
+
 /*about*/
 nav ul {
   display: flex;
@@ -148,7 +155,7 @@ nav ul {
 main ul {
   list-style: none;
 }
-
+/*projects*/
 .projects ul {
   min-height: 650px;
   width: 90%;
@@ -157,7 +164,7 @@ main ul {
   justify-items: center;
   align-items: flex-start;
 }
-
+/*hobbies*/
 .hobbies {
   background-image:url("../images/travel.jpeg");
   background-attachment: fixed;
