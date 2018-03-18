@@ -1,4 +1,4 @@
-
+/*main*/
 header, .about, .hobbies, .projects {
   min-height: 800px;
   margin-top: 60px;
@@ -10,18 +10,18 @@ header, .about, .hobbies, .projects {
   font-size: 1em;
 }
 
-h1, h2, h3, h5 {
+h1, h2 {
   font-family: 'Alegreya', serif,cursive;
   text-align: center;
   color: #785964
-
 }
 
-ul {
-  text-align: center;
-  list-style: none;
-  padding: 0;
+h3, h5 {
+  font-family: 'Alegreya', serif,cursive;
+  text-align: left;
+  color: #785964;
 }
+
 sub {
   font-family: 'Alegreya', serif,cursive;
   font-size: 1em;
@@ -51,23 +51,7 @@ a {
   color: #2C2C54;
   font-family: 'Alegreya', serif, cursive;
 }
-.main-banner {
-  background-size: cover;
-  width: 100%;
-  height: 810px;
-  background-repeat: no-repeat;
-  background-position: bottom right;
-  min-width: 800px;
-  overflow: hidden;
-  background-attachment: fixed;
-}
 
-h2 {
-  text-align: center;
-  width: auto;
-  font-size: 1.7em;
-  font-style: Alegreya, cursive
-}
 .menu-selection {
   width: 90%;
   margin: auto;
@@ -76,17 +60,19 @@ h2 {
 }
 
 .menu-selection article {
-  display: inline-block;
-  width: 28%;
+  display: flex;
+  display: inline-flex;
   min-width: 300px;
+  flex-wrap: nowrap;
+  justify-content: center;
   margin: 2.5% 2.3%;
   text-align: center;
-  border: 1px solid black;
+  border-style: dotted;
   border-radius: 10px;
 }
 
 .menu-selection article:hover {
-  box-shadow: 10px 10px 5px #88B4DB;
+  box-shadow: 10px 10px 5px #785964;
 }
 
 .menu-selection h3 {
@@ -94,15 +80,29 @@ h2 {
   height: 25px;
 }
 
- .social-media {
-   display: flex;
-   justify-content: flex-end;
-   }
-
 .about-me p {
   font-size: 1.1em;
   text-align: justify;
   line-height: 2em;
   font-family: 'Alegreya', cursive;
   color: #785964;
+}
+
+header {
+  background-image:url("../images/background.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height:100%;
+  padding-top: 100px;
+  overflow: hidden;
+}
+
+h1 sub {
+position: fixed;
+
+}
+footer img {
+  max-width: 30px;
 }
