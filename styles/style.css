@@ -111,7 +111,7 @@ header {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   height:100%;
   padding-top: 100px;
 }
@@ -137,6 +137,29 @@ nav ul {
 
 .about {
   background-image:url("../images/spring.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100%;
+  padding-top: 100px;
+}
+
+main ul {
+  list-style: none;
+}
+
+.projects ul {
+  min-height: 650px;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  justify-items: center;
+  align-items: flex-start;
+}
+
+.hobbies {
+  background-image:url("../images/travel.jpeg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
